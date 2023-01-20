@@ -1,0 +1,74 @@
+{
+	"cars": [
+		{
+			"vehicleNumber": 1,
+			"model": "Mahindra XUV700",
+			"capacity": 7,
+			"rentPerDay": 10000,
+			"images": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter.jpeg?isig=0&q=75&wm=1"
+		},
+		{
+			"vehicleNumber": 2,
+			"model": "Hyundai Grand i10 Nios",
+			"capacity": 5,
+			"rentPerDay": 8000,
+			"images": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/136183/grand-i10-nios-facelift-exterior-left-front-three-quarter.jpeg?isig=0&q=75&wm=1"
+		},
+		{
+			"vehicleNumber": 3,
+			"model": "Maruti Grand Vitara",
+			"capacity": 5,
+			"rentPerDay": 7000,
+			"images": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/123185/grand-vitara-exterior-left-side-view.jpeg?isig=0&q=75&wm=1"
+		},
+		{
+			"vehicleNumber": 4,
+			"model": "Mahindra Thar",
+			"capacity": 4,
+			"rentPerDay": 10000,
+			"images": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40087/thar-exterior-right-front-three-quarter-11.jpeg?q=75"
+		},
+		{
+			"vehicleNumber": 5,
+			"model": "Tata Nexon EV",
+			"capacity": 6,
+			"rentPerDay": 8000,
+			"images": "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/82KG635_6dbfb5e0d7b44ab1b11cec417bc3b4c8_1_26629781.jpg?q=75"
+		},
+		{
+			"vehicleNumber": 6,
+			"model": "Hyundai Elite i20",
+			"capacity": 4,
+			"rentPerDay": 10000,
+			"images": "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/TBEE70L_ef979f9355a3438186833b03131a45ff_1_26058658.jpg?q=75"
+		},
+		{
+			"vehicleNumber": 7,
+			"model": "Volkswagen Touareg",
+			"capacity": 5,
+			"rentPerDay": 11000,
+			"images": "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/PRWT6OX_90bda88d9fbc48499ca96f88b4ce51c7_1_26871189.jpg?q=75"
+		},
+		{
+			"vehicleNumber": 8,
+			"model": "Nissan Terrano",
+			"capacity": 4,
+			"rentPerDay": 7000,
+			"images": "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/G3CYRAC_773d5043b6094eb480df357ac5fe3594_1_26632669.jpg?q=75"
+		},
+		{
+			"vehicleNumber": 9,
+			"model": "Ford Ecosport",
+			"capacity": 4,
+			"rentPerDay": 6000,
+			"images": "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/9UOB937_605078303f2042c2b33939e6a821229f_1_25962403.jpg?q=75"
+		},
+		{
+			"vehicleNumber": 10,
+			"model": "Honda City",
+			"capacity": 4,
+			"rentPerDay": 8000,
+			"images": "https://imgd.aeplcdn.com/1024x768/cw/ucp/stockApiImg/G9AP483_84ebd25cbcd542e6af67580a320d4936_1_26667627.jpg?q=75"
+		}
+	]
+}
