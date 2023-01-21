@@ -2,12 +2,15 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { UseContext } from '../../Context/useContext';
+import useDynamicTitle from '../../Hooks/useDynamicTitle';
 
 const CurrentBookings = () => {
+
+    useDynamicTitle("Your Bookings")
+    
     const { bookings } = useContext(UseContext);
-    console.log(bookings);
     return (
-        <div className='mt-14'>
+        <div className='mt-14 h-screen'>
             <h3 className='text-center font-bold text-2xl text-cyan-500'>Your Bookings</h3>
             {
                 bookings?.length > 0 ?

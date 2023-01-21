@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     const navLinkStyle = ({ isActive }) => {
         return {
-            borderBottom: isActive ? "3px solid white" : "",
+            borderBottom: isActive ? "3px solid #164F64" : "",
             backgroundColor: isActive ? "transparent" : "transparent",
         }
     }

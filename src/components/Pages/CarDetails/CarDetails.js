@@ -8,8 +8,12 @@ import logo from "../../../assets/rent-vroom.jpg";
 import { useContext } from 'react';
 import { UseContext } from '../../Context/useContext';
 import { toast } from 'react-hot-toast';
+import useDynamicTitle from '../../Hooks/useDynamicTitle';
 
 const CarDetails = () => {
+
+    useDynamicTitle("Booking")
+
     // Date Method
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());

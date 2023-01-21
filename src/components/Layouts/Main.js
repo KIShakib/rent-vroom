@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from '../Shared/Footer';
 import Header from '../Shared/Header';
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
             <div className='lg:px-20 px-4'>
                 <Outlet />
             </div>
+            <Footer />
         </div>
     );
 };
