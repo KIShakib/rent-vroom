@@ -1,19 +1,16 @@
+import { Toaster } from 'react-hot-toast';
 import { RouterProvider } from 'react-router-dom';
 import './App.css';
 import { router } from './components/Routes/Routes';
 
 function App() {
   return (
-    <div className='lg:w-[80%] mx-auto max-w-[1440px]'>
+    <div>
       <RouterProvider router={router}>
-
       </RouterProvider>
+      <Toaster />
     </div>
   );
 }
 
 export default App;
-
-
-// style={{ fontFamily: "'Bellefair', sans-serif" }}
-// style={{ fontFamily: "'Barlow Condensed', sans-serif" }}

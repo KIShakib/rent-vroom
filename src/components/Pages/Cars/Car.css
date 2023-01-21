@@ -1,0 +1,20 @@
+.book-btn:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+.book-btn::before{
+    transition: 0.5s all ease;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #22D3EE;
+}
+.book-btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}

@@ -6,7 +6,9 @@ const Main = () => {
     return (
         <div>
             <Header />
-            <Outlet />
+            <div className='lg:px-20 px-4'>
+                <Outlet />
+            </div>
         </div>
     );
 };
